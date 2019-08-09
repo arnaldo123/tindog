@@ -1,0 +1,146 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color:white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top:40px;
+}
+h3{
+  font-weight: bold;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+.navbar{
+  padding:0 0 0.01rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.download-button{
+  margin:5% 3% 5% 0;
+
+}
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+  top:15%;
+}
+#features{
+  background-color: white;
+  padding:120px 20px 160px 20px;
+  position: relative;
+  z-index: 1;
+}
+.row{
+
+}
+.col-lg-4{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.feature-head{
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+.feature-para{
+  color: #8f8f8f;
+}
+#testimonials{
+  color: white;
+  text-align: center;
+  background-color:#ef8172;
+}
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  margin-top:20px;
+  width: 10%;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  text-align: center;
+  background-color:#ef8172;
+  padding:2%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding:50px;
+  text-align: center;
+}
+.card{
+  transition: 0.2s ease;
+}
+.card:hover{
+  box-shadow: 0 0 8px 2px #eeeeee;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding:100px 350px;
+  color: white;
+}
+#ctahead{
+  font-size: 2.2rem;
+}
+#footer{
+  text-align: center;
+  padding:100px 120px;
+  background-color: white;
+}
+.icon-footer{
+  margin:0 30px 40px 30px;
+}
+I{
+  transition: 0.7s;
+}
+i:hover{
+  transform: scale(1.5,1.5);
+  cursor: pointer;
+}
